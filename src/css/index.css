@@ -343,6 +343,7 @@
 .page-main .row .flashsale-countdown {
   height: 340px;
   width: 234px;
+  float: left;
   background: #f1eded;
   text-align: center;
   border-top: 1px solid red;
@@ -373,4 +374,22 @@
 .page-main .row .flashsale-countdown .row-d i {
   font-style: normal;
   font-size: 28px;
+}
+.page-main .row .flashsale-list {
+  height: 340px;
+  float: left;
+}
+.page-main .row .flashsale-list ul {
+  list-style: none;
+  overflow: hidden;
+}
+.page-main .row .flashsale-list ul li {
+  float: left;
+  margin-left: 10px;
+  border: 1px solid sandybrown;
+}
+.page-main .row .flashsale-list ul li a {
+  display: block;
+  width: 234px;
+  height: 339px;
 }
