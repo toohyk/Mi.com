@@ -6,6 +6,9 @@
 .container {
   width: 1226px;
 }
+a:hover {
+  text-decoration: none;
+}
 .head-img {
   display: block;
   background: url('../img/1.jpg');
@@ -386,10 +389,50 @@
 .page-main .row .flashsale-list ul li {
   float: left;
   margin-left: 10px;
-  border: 1px solid sandybrown;
+  border-top: 1px solid sandybrown;
 }
 .page-main .row .flashsale-list ul li a {
   display: block;
   width: 234px;
   height: 339px;
+  padding-top: 40px;
+  background-color: white;
+}
+.page-main .row .flashsale-list ul li a .thumb {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+.page-main .row .flashsale-list ul li a .thumb img {
+  width: 160px;
+  height: 160px;
+}
+.page-main .row .flashsale-list ul li a p {
+  margin: 0;
+  width: 160px;
+  margin: 0 auto;
+}
+.page-main .row .flashsale-list ul li a p:nth-child(2) {
+  color: #212121;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 10px;
+  white-space: nowrap;
+}
+.page-main .row .flashsale-list ul li a p:nth-child(3) {
+  font-size: 12px;
+  text-align: center;
+  color: #b0b0b0;
+  padding-top: 5px;
+}
+.page-main .row .flashsale-list ul li a p:nth-child(4) {
+  font-size: 14px;
+  color: #ff6709;
+  text-align: center;
+  padding: 15px;
+}
+.page-main .row .flashsale-list ul li a p:nth-child(4) del {
+  color: #b0b0b0;
 }
